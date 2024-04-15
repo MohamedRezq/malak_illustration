@@ -4,15 +4,15 @@ import React from "react";
 
 const ServiceCard = ({ serviceCard }: { serviceCard: IServiceCard }) => {
   return (
-    <div className="flex flex-col gap-y-4 justify-start items-center">
+    <div className="flex col-span-2 flex-col gap-y-4 justify-start items-center text-center">
       <Image
         height={100}
         width={100}
-        className="w-auto h-40 md:h-60"
+        className="w-auto h-40 lg:h-60"
         src={serviceCard.imageUrl}
         alt={serviceCard.title}
       />
-      <h5 className="text-xl md:text-2xl font-bold">{serviceCard.title}</h5>
+      <h5 className="text-lg lg:text-2xl font-bold">{serviceCard.title}</h5>
       <desc className="text-md font-normal text-center">
         {serviceCard.description}
       </desc>
