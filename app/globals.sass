@@ -1,0 +1,21 @@
+@tailwind base
+@tailwind components
+@tailwind utilities
+
+@import 'react-modern-drawer/dist/index.css'
+
+@font-face
+  font-family: 'Messery'
+  src: url('../public/fonts/ElMessiri-VariableFont_wght.ttf') format('truetype')
+
+body
+  font-family: 'Messery', sans-serif !important
+  direction: rtl !important
+
+body
+  color: rgb(var(--foreground-rgb))
+  background-color: white
+
+@layer utilities
+  .text-balance
+    text-align: justify

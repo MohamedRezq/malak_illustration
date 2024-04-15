@@ -1,0 +1,24 @@
+{
+  "navLinks": [
+    {
+      "title": "لنروي القصص",
+      "url": "/",
+      "variant": "contained"
+    },
+    {
+      "title": "قصتي",
+      "url": "/my-story",
+      "variant": "outlined"
+    },
+    {
+      "title": "أعمالي",
+      "url": "/my-works",
+      "variant": "outlined"
+    },
+    {
+      "title": "خدماتي",
+      "url": "/my-services",
+      "variant": "outlined"
+    }
+  ]
+}

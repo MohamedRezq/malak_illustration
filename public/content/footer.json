@@ -1,0 +1,24 @@
+{
+  "navLinks": [
+    {
+      "title": "تواصل معي",
+      "url": "/",
+      "variant": "contained"
+    },
+    {
+      "title": "الأسئلة الشائعة",
+      "url": "/my-story",
+      "variant": "outlined"
+    },
+    {
+      "title": "الشروط والأحكام",
+      "url": "/my-works",
+      "variant": "outlined"
+    },
+    {
+      "title": "الخصوصية",
+      "url": "/my-services",
+      "variant": "outlined"
+    }
+  ]
+}
