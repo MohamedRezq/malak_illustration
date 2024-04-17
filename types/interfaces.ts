@@ -20,3 +20,11 @@ export interface IServiceCard {
   description: string;
   imageUrl: string;
 }
+
+export interface IWorkCard {
+  title: string;
+  description: string;
+  category: string;
+  imageUrl: string;
+  url: string;
+}

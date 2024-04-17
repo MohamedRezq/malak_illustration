@@ -1,0 +1,50 @@
+{
+  "workCards": [
+    {
+      "title": "kids story",
+      "description": "قصة مصورة للأطفال واقع افتراضي",
+      "category": "المزيد",
+      "url": "",
+      "imageUrl": "/images/logo.png"
+    },
+    {
+      "title": "book cover",
+      "description": "غلاف كتاب قصة مصورة للأطفال واقع افتراضي",
+      "category": "تصميم غلاف",
+      "url": "",
+      "imageUrl": "/images/logo.png"
+    },
+    {
+      "title": "Collaboration",
+      "description": "تصميم واقع افتراضي للأطفال واقع افتراضي",
+      "category": "قصص أطفال",
+      "url": "",
+      "imageUrl": "/images/malak_illustrations_header.png"
+    },
+    {
+      "title": "بُعْد",
+      "description": "تصميم واقع افتراضي للأطفال واقع افتراضي",
+      "category": "المزيد",
+      "url": "",
+      "imageUrl": "/images/logo.png"
+    }
+  ],
+  "categories": [
+    {
+      "title": "قصص يافعين",
+      "themeColor": "#a7ded1"
+    },
+    {
+      "title": "قصص أطفال",
+      "themeColor": "#9494b9"
+    },
+    {
+      "title": "تصميم غلاف",
+      "themeColor": "rgba(49, 70, 215, 0.62)"
+    },
+    {
+      "title": "تعاون",
+      "themeColor": "#eeb5b4"
+    }
+  ]
+}

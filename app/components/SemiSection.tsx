@@ -12,7 +12,7 @@ const SemiSection = ({
 }) => {
   return (
     <section
-      className={`grid grid-cols-1 lg:grid-cols-2 w-full p-5 md:p-14 min-h-[90vh]`}
+      className={`grid grid-cols-1 lg:grid-cols-2 w-full p-5 md:p-20 min-h-[90vh]`}
       style={{
         backgroundColor: section?.metadata?.backgroundColor,
       }}
@@ -42,7 +42,7 @@ const SemiSection = ({
           alt={section?.title}
           width={200}
           height={200}
-          className="h-48 md:h-full w-auto"
+          className="h-48 md:h-[80%] w-auto"
         />
       </div>
     </section>

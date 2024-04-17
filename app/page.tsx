@@ -22,7 +22,7 @@ export default function Home() {
         {data.serviceCards.map((serviceCard) => (
           <ServiceCard key={serviceCard.title} serviceCard={serviceCard} />
         ))}
-        <div className="w-full flex justify-start mt-5 col-span-2">
+        <div className="w-full flex justify-start mt-5 col-span-2 text-xl">
           <NavLink
             navLink={{
               title: "للمزيد...",

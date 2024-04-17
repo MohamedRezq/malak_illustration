@@ -16,7 +16,7 @@ const Header = () => {
   };
 
   const NavLinksList = () => (
-    <nav className="flex flex-col md:flex-row text-light-coral-2 text-lg md:text-xl font-bold items-center gap-x-6 gap-y-3">
+    <nav className="flex flex-col md:flex-row text-light-coral-2 text-lg md:text-2xl font-bold items-center gap-x-6 gap-y-3">
       {data.navLinks.map((navLink) => (
         <NavLink key={navLink.title} navLink={navLink as INavLink} />
       ))}
@@ -24,7 +24,7 @@ const Header = () => {
   );
 
   return (
-    <header className="flex bg-misty-rose-4 items-center justify-between py-3 px-12">
+    <header className="flex bg-misty-rose-4 items-center justify-between py-3 px-28">
       <div className="hidden md:flex">
         <NavLinksList />
       </div>
