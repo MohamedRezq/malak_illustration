@@ -3,7 +3,7 @@ import { useState } from "react";
 import data from "@/public/content/works.json";
 import WorkCard from "../components/WorkCard";
 
-export default function Home() {
+export default function Works() {
   const [activeTabs, setActiveTabs] = useState<string[]>([]);
   const [hoveredTab, setHoveredTab] = useState<string | null>(null);
   return (

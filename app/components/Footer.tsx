@@ -19,13 +19,13 @@ const Footer = () => {
             </Link>
           ))}
         </nav>
-        <div className="bg-white hidden md:flex rounded-full items-center justify-center w-16 h-16 border-4 shadow-lg border-light-coral-2 ">
+        <div className="bg-white hidden md:flex rounded-full items-center justify-center w-12 h-12 border-4 shadow-lg border-light-coral-2 ">
           <Image
             src={logo}
             alt="Malak Illustrations"
             width={50}
             height={50}
-            className="w-16 h-16 scale-125"
+            className="w-auto h-12 scale-125"
           />
         </div>
       </div>

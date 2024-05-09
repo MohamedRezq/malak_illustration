@@ -22,10 +22,10 @@ const SemiSection = ({
           direction == "ltr" ? "md:order-2" : ""
         }`}
       >
-        <h1 className="text-2xl md:text-5xl font-bold text-light-coral-2">
+        <h1 className="text-3xl self-start lg:text-4xl font-bold text-light-coral-2">
           {section?.title}
         </h1>
-        <p className="leading-relaxed text-center md:text-start">
+        <p className="leading-relaxed text-start text-[14pt]">
           {section?.content}
         </p>
         <NavLink

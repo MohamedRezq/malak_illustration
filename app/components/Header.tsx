@@ -16,7 +16,7 @@ const Header = () => {
   };
 
   const NavLinksList = () => (
-    <nav className="flex flex-col md:flex-row text-light-coral-2 text-lg md:text-2xl font-bold items-center gap-x-6 gap-y-3">
+    <nav className="flex flex-col md:flex-row text-light-coral-2 text-lg md:text-[16pt] font-bold items-center gap-x-3 gap-y-3">
       {data.navLinks.map((navLink) => (
         <NavLink key={navLink.title} navLink={navLink as INavLink} />
       ))}
@@ -59,11 +59,11 @@ const Header = () => {
         </Drawer>
       </>
       <Image
-        width={120}
-        height={120}
+        width={80}
+        height={80}
         src={logo}
         alt="Malak Illustrations"
-        className="md:mx-10 w-24 h-auto md:w-36"
+        className="md:mx-10 w-20 h-auto md:w-28"
       />
     </header>
   );

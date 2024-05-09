@@ -2,7 +2,7 @@
   "navLinks": [
     {
       "title": "تواصل معي",
-      "url": "/",
+      "url": "/contact",
       "variant": "contained"
     },
     {
@@ -17,7 +17,7 @@
     },
     {
       "title": "الخصوصية",
-      "url": "/my-services",
+      "url": "/services",
       "variant": "outlined"
     }
   ]

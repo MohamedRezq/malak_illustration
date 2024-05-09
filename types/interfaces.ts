@@ -15,6 +15,19 @@ export interface ISemiSection {
   };
 }
 
+export interface IServiceSection {
+  title: string;
+  subTitle: string;
+  points: { iconUrl: string; text: string }[];
+  urlWorks: string;
+  urlService: string;
+  urlMethod: string;
+  image: string;
+  metadata: {
+    backgroundColor: string;
+  };
+}
+
 export interface IServiceCard {
   title: string;
   description: string;
