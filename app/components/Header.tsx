@@ -24,7 +24,7 @@ const Header = () => {
   );
 
   return (
-    <header className="flex bg-misty-rose-4 items-center justify-between py-3 px-28">
+    <header className="flex w-full bg-misty-rose-4 items-center justify-between py-3 px-14 md:px-28">
       <div className="hidden md:flex">
         <NavLinksList />
       </div>

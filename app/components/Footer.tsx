@@ -29,8 +29,9 @@ const Footer = () => {
           />
         </div>
       </div>
-      <div className="text-center w-full text-base mt-20">
-        ملاك للرسوم الإيضاحية٬ كافة الحقوق محفوظة ٢٠٢١ ©{" "}
+      <div className="text-center w-full text-sm mt-20">
+        ملاك للرسوم الإيضاحية
+        <br /> كافة الحقوق محفوظة ٢٠٢١ ©{" "}
       </div>
     </div>
   );

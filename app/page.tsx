@@ -18,7 +18,7 @@ export default function Home() {
         direction="ltr"
       />
       {/* My Services Section */}
-      <section className="grid grid-cols-2 lg:grid-cols-8 gap-x-8 gap-y-14 m-20 md:m-28">
+      <section className="grid grid-cols-2 lg:grid-cols-8 gap-x-8 gap-y-14 my-20 mx-10 md:m-28">
         {data.serviceCards.map((serviceCard) => (
           <ServiceCard key={serviceCard.title} serviceCard={serviceCard} />
         ))}

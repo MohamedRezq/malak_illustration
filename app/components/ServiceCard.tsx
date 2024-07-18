@@ -12,8 +12,8 @@ const ServiceCard = ({ serviceCard }: { serviceCard: IServiceCard }) => {
         src={serviceCard.imageUrl}
         alt={serviceCard.title}
       />
-      <h5 className="text-lg lg:text-2xl font-bold">{serviceCard.title}</h5>
-      <desc className="text-md font-normal text-center">
+      <h5 className="text-xl lg:text-2xl font-bold">{serviceCard.title}</h5>
+      <desc className="text-lg font-normal text-center">
         {serviceCard.description}
       </desc>
     </div>
