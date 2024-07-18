@@ -9,7 +9,7 @@ export default function Works() {
   return (
     <main className="flex p-10 md:p-20 min-h-screen flex-col items-center gap-10">
       {/* tabs-selection */}
-      <div className="flex gap-x-10 items-center justify-center">
+      <div className="flex gap-x-5 gap-y-5 md:gap-x-10 flex-wrap items-center justify-center">
         {data.categories.map((category) => (
           <div
             key={category.title}
@@ -37,14 +37,14 @@ export default function Works() {
                   ? category.themeColor
                   : "",
             }}
-            className="px-2 font-bold py-1 rounded-full text-md w-32 text-center cursor-pointer border-2 shadow-lg transition-colors duration-300"
+            className="px-2 font-bold py-1 rounded-full text-sm md:text-md w-32 text-center cursor-pointer border-2 shadow-lg transition-colors duration-300"
           >
             {category.title}
           </div>
         ))}
       </div>
       {/* Work Cards */}
-      <div className="flex flex-wrap gap-5">
+      <div className="flex flex-wrap gap-5 justify-center">
         {data.workCards
           .filter((workcard) => {
             return activeTabs.find((tab) => tab === workcard.category);
