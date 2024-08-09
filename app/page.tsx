@@ -3,8 +3,10 @@ import SemiSection from "./components/SemiSection";
 import data from "@/public/content/home.json";
 import ServiceCard from "./components/ServiceCard";
 import NavLink from "./components/NavLink";
+import AnimatedSection from "./components/AnimatedSection";
 
 export default function Home() {
+  const sections = [];
   return (
     <main className="flex min-h-screen flex-col items-center justify-between">
       {/* Semi-Section */}
@@ -15,10 +17,13 @@ export default function Home() {
       {/* Semi-Section */}
       <SemiSection
         section={data?.["semi-sections"]?.at(1) as ISemiSection}
-        direction="ltr"
+        direction="rtl"
       />
       {/* My Services Section */}
-      <section className="grid grid-cols-2 lg:grid-cols-8 gap-x-8 gap-y-14 my-20 mx-10 md:m-28">
+      <AnimatedSection
+        styles={{}}
+        classNames="grid grid-cols-2 lg:grid-cols-8 gap-x-8 gap-y-14 my-20 mx-10 md:m-28"
+      >
         {data.serviceCards.map((serviceCard) => (
           <ServiceCard key={serviceCard.title} serviceCard={serviceCard} />
         ))}
@@ -31,7 +36,7 @@ export default function Home() {
             }}
           />
         </div>
-      </section>
+      </AnimatedSection>
       {/* Semi-Section */}
       <SemiSection
         section={data?.["semi-sections"]?.at(2) as ISemiSection}

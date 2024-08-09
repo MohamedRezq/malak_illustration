@@ -2,6 +2,7 @@ import { ISemiSection } from "@/types/interfaces";
 import Image from "next/image";
 import React from "react";
 import NavLink from "./NavLink";
+import AnimatedSection from "./AnimatedSection";
 
 const CustomSection = ({
   direction,
@@ -11,9 +12,9 @@ const CustomSection = ({
   section: ISemiSection;
 }) => {
   return (
-    <section
-      className={`grid grid-cols-1 lg:grid-cols-2 w-full p-14`}
-      style={{
+    <AnimatedSection
+      classNames={`grid grid-cols-1 lg:grid-cols-2 w-full p-14`}
+      styles={{
         backgroundColor: section?.metadata?.backgroundColor,
       }}
     >
@@ -43,7 +44,7 @@ const CustomSection = ({
           }}
         />
       </div>
-    </section>
+    </AnimatedSection>
   );
 };
 

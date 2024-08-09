@@ -2,12 +2,13 @@ import { IServiceSection } from "@/types/interfaces";
 import Image from "next/image";
 import React from "react";
 import NavLink from "./NavLink";
+import AnimatedSection from "./AnimatedSection";
 
 const ServiceSection = ({ section }: { section: IServiceSection }) => {
   return (
-    <section
-      className={`grid grid-cols-1 lg:grid-cols-2 w-full lg:p-20 min-h-[90vh]`}
-      style={{
+    <AnimatedSection
+      classNames={`grid grid-cols-1 lg:grid-cols-2 w-full lg:p-20 min-h-[90vh]`}
+      styles={{
         backgroundColor: section?.metadata?.backgroundColor,
       }}
     >
@@ -69,7 +70,7 @@ const ServiceSection = ({ section }: { section: IServiceSection }) => {
           }}
         />
       </div>
-    </section>
+    </AnimatedSection>
   );
 };
 
